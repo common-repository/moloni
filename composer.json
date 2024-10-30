@@ -1,0 +1,22 @@
+{
+  "name": "moloni-pt/moloni-woocommerce",
+  "description": "Plugin for WooCommerce integration with Moloni",
+  "license": "GPL-3.0",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "Nuno Almeida",
+      "email": "nuno@moloni.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-curl": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Moloni\\": "src"
+    }
+  }
+}
